@@ -96,6 +96,7 @@ private:
     int num_cond_total_;
     std::vector<int> num_trial_total_;
     std::vector<int> num_training_total_;
+    std::vector<int> flag_send_haptic_cue_;
     std::vector< std::vector<int> > robot_action_list_;
 
     exp_state_type exp_state_;

@@ -131,9 +131,11 @@ void ExpMainWindow::load_protocol_exp1(json &proto_parser)
 
     num_trial_total_.clear();
     num_training_total_.clear();
+    flag_send_haptic_cue_.clear();
     for (int i = 0; i < num_cond_total_; i++) {
         num_trial_total_.push_back(proto_parser["num_trials"][i]);
         num_training_total_.push_back(proto_parser["num_trainings"][i]);
+        flag_send_haptic_cue_.push_back(proto_parser["send_haptics"][i]);
     }
 
     robot_action_list_.clear();
@@ -445,7 +447,7 @@ void ExpMainWindow::send_haptic_cue()
         action_id += num_training_total_[cond_num_];
     }
 
-    if (cond_num_ == 2) {
+    if (flag_send_haptic_cue_[cond_num_] > 0) {
         if (robot_action_list_[cond_num_][action_id] < 2) {
             haptic_msg_.data = "Attract";
             haptic_control_pub_.publish(haptic_msg_);

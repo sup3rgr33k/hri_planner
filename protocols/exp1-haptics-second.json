@@ -1,0 +1,28 @@
+{
+  "experiment_name": "exp1",
+  "configuration": 1,
+
+  "human_target0": {
+    "x": 0.0, "y": 1.5,
+    "theta": 0.0,
+    "units": ["meter", "deg"]
+  },
+  "human_target1": {
+    "x": 0.0, "y": 6.5,
+    "theta": 0.0,
+    "units": ["meter", "deg"]
+  },
+
+  "num_conditions": 3,
+  "num_trainings": [2, 12, 12],
+  "num_trials": [10, 24, 24],
+
+  "robot_actions": {
+    "_comment": "must match number of conditions and number of trainings + trials, 0 represents stationary and 1 represents random move",
+    "condition_0": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+    "condition_1": [1, 2, 3, 0, 0, 1, 3, 1, 3, 2, 2, 0, 0, 2, 0, 0, 1, 3, 3, 2, 0, 2, 3, 2, 2, 1, 0, 0, 1, 2, 1, 3, 1, 1, 3, 3],
+    "condition_2": [3, 2, 0, 0, 3, 0, 1, 3, 1, 2, 1, 2, 3, 0, 0, 0, 2, 2, 1, 1, 1, 3, 2, 3, 3, 0, 2, 0, 3, 1, 1, 2, 3, 0, 2, 1]
+  },
+
+  "send_haptics": [0, 0, 1]
+}
