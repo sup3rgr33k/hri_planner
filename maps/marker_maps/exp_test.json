@@ -5,7 +5,7 @@
   "board0": {
     "type": "vertical",
 
-    "x": -22.5, "y": 343.5,
+    "x": -22.5, "y": 330,
     "theta": 0.0,
     "units": ["inch", "deg"],
 
@@ -35,7 +35,7 @@
   "board2": {
     "type": "vertical",
 
-    "x": -86, "y": 179.5,
+    "x": -86, "y": 173,
     "theta": 90.0,
     "units": ["inch", "deg"],
 
@@ -50,7 +50,7 @@
   "board3": {
     "type": "vertical",
 
-    "x": 102, "y": 213.5,
+    "x": 102, "y": 210,
     "theta": -90.0,
     "units": ["inch", "deg"],
 
@@ -65,7 +65,7 @@
   "board4": {
     "type": "vertical",
 
-    "x": 69.5, "y": 312.5,
+    "x": 69.5, "y": 302,
     "theta": -44.1575,
     "units": ["inch", "deg"],
 
@@ -80,7 +80,7 @@
   "board5": {
     "type": "vertical",
 
-    "x": -77.5, "y": 283.5,
+    "x": -77.5, "y": 273,
     "theta": 53.012,
     "units": ["inch", "deg"],
 
@@ -95,7 +95,7 @@
   "board6": {
     "type": "vertical",
 
-    "x": 95, "y": 101.5,
+    "x": 95, "y": 96,
     "theta": -118.1786,
     "units": ["inch", "deg"],
 
@@ -110,7 +110,7 @@
   "board7": {
     "type": "vertical",
 
-    "x": -68.5, "y": 70.5,
+    "x": -68.5, "y": 68,
     "theta": 109.2307,
     "units": ["inch", "deg"],
 
