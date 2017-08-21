@@ -50,7 +50,7 @@
   "board3": {
     "type": "vertical",
 
-    "x": 102, "y": 210,
+    "x": 102, "y": 205,
     "theta": -90.0,
     "units": ["inch", "deg"],
 
@@ -65,7 +65,7 @@
   "board4": {
     "type": "vertical",
 
-    "x": 69.5, "y": 302,
+    "x": 69.5, "y": 307,
     "theta": -44.1575,
     "units": ["inch", "deg"],
 
@@ -110,7 +110,7 @@
   "board7": {
     "type": "vertical",
 
-    "x": -68.5, "y": 68,
+    "x": -68.5, "y": 64,
     "theta": 109.2307,
     "units": ["inch", "deg"],
 
